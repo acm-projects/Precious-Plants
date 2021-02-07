@@ -24,6 +24,7 @@ More possible information to include:
 ***Resources***
 
 ***Tech Stack***
+
 **Plant Identification/Information API’s**
   1. https://trefle.io - Trefle API
      - Gives information about plant species, watering information, sunlight needed, etc
@@ -32,6 +33,7 @@ More possible information to include:
       - Free, can use 50 free identification requests per day
   3.https://openfarm.cc - Open Farm API
        - Provides specific information on how to grow plants (including spacing information, etc)
+       
 **Front End**
 1. Flutter
     - Flutter uses Dart which is similar to Java
