@@ -24,7 +24,7 @@ More possible information to include:
 ***Resources***
 
 ***Tech Stack***
-- **Plant Identification/Information API’s**
+**Plant Identification/Information API’s**
   1. https://trefle.io - Trefle API
      - Gives information about plant species, watering information, sunlight needed, etc
      - You can submit corrections/changes through an API call. 
@@ -32,18 +32,19 @@ More possible information to include:
       - Free, can use 50 free identification requests per day
   3.https://openfarm.cc - Open Farm API
        - Provides specific information on how to grow plants (including spacing information, etc)
-- **Front End**
-  1. Flutter
+**Front End**
+1. Flutter
     - Flutter uses Dart which is similar to Java
-  2. React Native 
+2. React Native 
     - Might need to have familiarity with JavaScript for React Native
     
   Both are fairly easy to pick up.
   Both React Native and Flutter have a camera feature.
 
-- **Back End**
-  1. Django 
+**Back End**
+1. Django 
     - It’s easier to use Python to create API’s and do debugging. 
+    - Much more easier to work with for integration purposes.
 
 ***Software to Install***
 - Gitbash
