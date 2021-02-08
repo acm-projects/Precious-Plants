@@ -65,4 +65,5 @@ More possible information to include:
    - Super helpful to give an introduction to how to use Widgets, etc.
 5. [React Native tutorial playlist](https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ)
 6. [Django Tutorial (for APIs)](https://www.youtube.com/watch?v=mNwAyMmGKoI&list=PL8GFhcuc_fW4cxdkRtWIlln1DQ3CZwQen)
+7. [Helpful GitHub Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
