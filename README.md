@@ -1,5 +1,5 @@
 # Precious-Plants
-Nurture your nature needs with a mobile app that helps you properly care for your plants by tracking watering times and sunlight requirements!
+***Nurture your nature needs with a mobile app that helps you properly care for your plants by tracking watering times and sunlight requirements!***
 
 ## Minimum Viable Product (MVP)
 
@@ -38,8 +38,8 @@ More possible information to include:
   2. [React Native](https://reactnative.dev/docs/getting-started)
       - Need to have familiarity with JavaScript for React Native.
     
-    - Both are fairly easy to pick up.
-    - Both React Native and Flutter have a camera feature.
+   - Both are fairly easy to pick up.
+   - Both React Native and Flutter have a camera feature.
 
   ### Back End
   1. [Django](https://docs.djangoproject.com/en/3.1/topics/install/)
@@ -52,13 +52,13 @@ More possible information to include:
 - [Django](https://docs.djangoproject.com/en/3.1/topics/install/) 
 
 ## Tutorials and Helpful Links
-1. Flutter installation
+1. ***Flutter installation***
    - [For Mac](https://www.youtube.com/watch?v=hL7pkX1Pfko)
    - [For Windows](https://www.youtube.com/watch?v=Z2ugnpCQuyw)
-2. React Native installation
+2. ***React Native installation***
    - [For Mac](https://www.youtube.com/watch?v=_oCQDtDW3j4)
    - [For Windows](https://www.youtube.com/watch?v=0DhQd_EK1Ng)
-3. Django installation
+3. ***Django installation***
     - [For Mac](https://www.youtube.com/watch?v=FshRArXrEcM)
     - [For Windows](https://www.youtube.com/watch?v=2FvIa4BADvA)
 4. [Flutter tutorial playlist](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)
