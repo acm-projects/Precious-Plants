@@ -1,7 +1,7 @@
 # Precious-Plants
 Nurture your nature needs with a mobile app that helps you properly care for your plants by tracking watering times and sunlight requirements!
 
-***Minimum Viable Product (MVP)***
+## Minimum Viable Product (MVP)
 
 Users will be able to receive notifications for when to give sunlight, change soil, or water their plants. Using the search feature, or the “Take a photo” feature, a user can save as many plants as they wish to in their “Saved Plants” section. The app will then give a holistic guide on how to properly care for all the individual plants the user saves. 
 
@@ -16,42 +16,53 @@ More possible information to include:
 - Have a search bar implemented to look up information about plants by species.
 - Notification system to remind the user to change water, soil, etc.
 
-***Stretch Goals***
+## Stretch Goals
 - Users can leave their tips/advice on how to care for a plant under a “comments” section for a plant.
 - Have a plant progress/time capsule option that shows the progress of the plant's growth based on photos the user takes.
 - Ask for feedback on accuracy of plant species (for image search option) 
 
-***Resources***
+## Resources/Tech Stack
 
-***Tech Stack***
-
-**Plant Identification/Information API’s**
-  1. https://trefle.io - Trefle API
-     - Gives information about plant species, watering information, sunlight needed, etc
-     - You can submit corrections/changes through an API call. 
-  2. https://my.plantnet.org - Pl@nt Net API
-      - Free, can use 50 free identification requests per day
-  3.https://openfarm.cc - Open Farm API
+  **Plant Identification/Information API’s**
+    1. [Trefle API](https://trefle.io)
+       - Gives information about plant species, watering information, sunlight needed, etc
+       - You can submit corrections/changes through an API call. 
+    2. [Pl@nt Net API](https://my.plantnet.org)
+       - Free, can use 50 free identification requests per day
+    3. [Open Farm API](https://openfarm.cc)
        - Provides specific information on how to grow plants (including spacing information, etc)
        
-**Front End**
-1. Flutter
-    - Flutter uses Dart which is similar to Java
-2. React Native 
-    - Might need to have familiarity with JavaScript for React Native
+  **Front End**
+    1. [Flutter](https://flutter.dev/docs/get-started/install)
+      - Flutter uses Dart which is similar to Java.
+    2. [React Native](https://reactnative.dev/docs/getting-started)
+      - Need to have familiarity with JavaScript for React Native.
     
-  Both are fairly easy to pick up.
-  Both React Native and Flutter have a camera feature.
+    - Both are fairly easy to pick up.
+    - Both React Native and Flutter have a camera feature.
 
-**Back End**
-1. Django 
-    - It’s easier to use Python to create API’s and do debugging. 
-    - Much more easier to work with for integration purposes.
+  **Back End**
+    1. [Django](https://docs.djangoproject.com/en/3.1/topics/install/)
+       - It’s easier to use Python to create API’s and do debugging. 
+       - Much more easier to work with for integration purposes.
 
-***Software to Install***
-- Gitbash
-- Android Studio
-- TensorFlow
-- Django 
+# Software to Install***
+- [Gitbash](https://git-scm.com/downloads)
+- [Android Studio](https://developer.android.com/jetpack)
+- [Django](https://docs.djangoproject.com/en/3.1/topics/install/) 
 
-***Tutorials and Links***
+## Tutorials and Helpful Links
+1. Flutter installation
+  - [For Mac](https://www.youtube.com/watch?v=hL7pkX1Pfko)
+  - [For Windows](https://www.youtube.com/watch?v=Z2ugnpCQuyw)
+2. React Native installation
+  - [For Mac](https://www.youtube.com/watch?v=_oCQDtDW3j4)
+  - [For Windows](https://www.youtube.com/watch?v=0DhQd_EK1Ng)
+3. Django installation
+  - [For Mac](https://www.youtube.com/watch?v=FshRArXrEcM)
+  - [For Windows](https://www.youtube.com/watch?v=2FvIa4BADvA)
+4. [Flutter tutorial playlist](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)
+  - Super helpful to give an introduction to how to use Widgets, etc.
+5. [React Native tutorial playlist](https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ)
+6. [Django Tutorial (for APIs)](https://www.youtube.com/watch?v=mNwAyMmGKoI&list=PL8GFhcuc_fW4cxdkRtWIlln1DQ3CZwQen)
+
