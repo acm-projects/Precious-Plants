@@ -42,11 +42,10 @@ More possible information to include:
    - Both React Native and Flutter have a camera feature.
   
   3. Wireframing tools
-    - [Figma](https://www.figma.com)
-      - Extremely easy to use, need an email to set up an account for free.
-      - Very good for creating prototypes.
-    - [Adobe XD](https://www.adobe.com/creativecloud/business/enterprise/xd/ux-development-workflow.html)
-      - Easy to use, and creates elegant wireframes.
+  - [Figma](https://flutter.dev/docs/get-started/install) 
+     - Free, easy to create wireframes and save individual components.
+  - [Adobe XD](https://reactnative.dev/docs/getting-started)
+     - Creates elegant wireframes and easy to pick up.
 
   ### Back End
   1. [Django](https://docs.djangoproject.com/en/3.1/topics/install/)
@@ -80,4 +79,5 @@ More possible information to include:
 5. [React Native tutorial playlist](https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ)
 6. [Django Tutorial (for APIs)](https://www.youtube.com/watch?v=mNwAyMmGKoI&list=PL8GFhcuc_fW4cxdkRtWIlln1DQ3CZwQen)
 7. [Helpful GitHub Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+8. [Article on UI/UX tips](https://www.uxpin.com/studio/blog/guide-design-consistency-best-practices-ui-ux-designers/)
 
