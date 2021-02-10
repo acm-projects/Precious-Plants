@@ -12,9 +12,9 @@ More possible information to include:
   - Pest and disease control
   - Potting suggestions
   
-- Have a “Take a photo” feature which uses a reverse image searching/machine learning algorithm to return the species of a plant.
 - Have a search bar implemented to look up information about plants by species.
 - Notification system to remind the user to change water, soil, etc.
+- Have a “Take a photo” feature which uses a reverse image searching/machine learning algorithm to return the species of a plant.
 
 ## Stretch Goals
 - Users can leave their tips/advice on how to care for a plant under a “comments” section for a plant.
@@ -40,6 +40,13 @@ More possible information to include:
     
    - Both are fairly easy to pick up.
    - Both React Native and Flutter have a camera feature.
+  
+  3. Wireframing tools
+    - [Figma](https://www.figma.com)
+      - Extremely easy to use, need an email to set up an account for free.
+      - Very good for creating prototypes.
+    - [Adobe XD](https://www.adobe.com/creativecloud/business/enterprise/xd/ux-development-workflow.html)
+      - Easy to use, and creates elegant wireframes.
 
   ### Back End
   1. [Django](https://docs.djangoproject.com/en/3.1/topics/install/)
@@ -49,7 +56,14 @@ More possible information to include:
 ## Software to Install
 - [Gitbash](https://git-scm.com/downloads)
 - [Android Studio](https://developer.android.com/jetpack)
+  - IDE for Flutter and React Native
 - [Django](https://docs.djangoproject.com/en/3.1/topics/install/) 
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+  - IDE for running Django
+- [Homebrew](https://brew.sh)
+  - Needed for installing React Native and other packages.
+- [Adobe XD](https://www.adobe.com/products/xd.html?sdid=12B9F15S&mv=Search&ef_id=EAIaIQobChMItOel8Jje7gIV0ZFbCh368AhcEAAYASAAEgLSkfD_BwE:G:s&s_kwcid=AL!3085!3!394015009825!e!!g!!adobe%20xd!1641846436!65452675151)
+  - For wireframing if this software is chosen.
 
 ## Tutorials and Helpful Links
 1. ***Flutter installation***
