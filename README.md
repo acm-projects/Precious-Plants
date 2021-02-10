@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://www.gaithersburgdental.com/wp-content/uploads/2016/10/orionthemes-placeholder-image.png" width="250">
+  </p>
+
 # Precious-Plants
 ***Nurture your nature needs with a mobile app that helps you properly care for your plants by tracking watering times and sunlight requirements!***
 
