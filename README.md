@@ -42,9 +42,9 @@ More possible information to include:
    - Both React Native and Flutter have a camera feature.
   
   3. Wireframing tools
-  - [Figma](https://flutter.dev/docs/get-started/install) 
+  - [Figma](https://www.figma.com) 
      - Free, easy to create wireframes and save individual components.
-  - [Adobe XD](https://reactnative.dev/docs/getting-started)
+  - [Adobe XD](https://www.adobe.com/products/xd.html?sdid=12B9F15S&mv=Search&ef_id=EAIaIQobChMItOel8Jje7gIV0ZFbCh368AhcEAAYASAAEgLSkfD_BwE:G:s&s_kwcid=AL!3085!3!394015009825!e!!g!!adobe%20xd!1641846436!65452675151)
      - Creates elegant wireframes and easy to pick up.
 
   ### Back End
