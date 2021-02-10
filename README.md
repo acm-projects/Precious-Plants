@@ -9,13 +9,9 @@
 
 Users will be able to receive notifications for when to give sunlight, change soil, or water their plants. Using the search feature, or the “Take a photo” feature, a user can save as many plants as they wish to in their “Saved Plants” section. The app will then give a holistic guide on how to properly care for all the individual plants the user saves. 
 
-Implement a system to save plants with information about watering frequency, type of soil, and sunlight needed. 
-More possible information to include:
-  - Pruning
-  - Fertilization
-  - Pest and disease control
-  - Potting suggestions
-  
+
+- Implement a system to save plants with information about watering frequency, type of soil, and sunlight needed. 
+  - More possible information to include: pruning, fertilization, pest and disease control, potting suggestions, etc.
 - Have a search bar implemented to look up information about plants by species.
 - Notification system to remind the user to change water, soil, etc.
 - Have a “Take a photo” feature which uses a reverse image searching/machine learning algorithm to return the species of a plant.
