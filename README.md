@@ -78,6 +78,7 @@ Users will be able to receive notifications for when to give sunlight, change so
    - Super helpful to give an introduction to how to use Widgets, etc.
 5. [React Native tutorial playlist](https://www.youtube.com/watch?v=ur6I5m2nTvk&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ)
 6. [Django Tutorial (for APIs)](https://www.youtube.com/watch?v=mNwAyMmGKoI&list=PL8GFhcuc_fW4cxdkRtWIlln1DQ3CZwQen)
-7. [Helpful GitHub Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
-8. [Article on UI/UX tips](https://www.uxpin.com/studio/blog/guide-design-consistency-best-practices-ui-ux-designers/)
+7. [Helpful GitHub Cheatsheet 1](https://education.github.com/git-cheat-sheet-education.pdf)
+8. [Helpful GitHub Cheatsheet 2](https://drive.google.com/file/d/1OddwoSvNJ3dQuEBw3RERieMXmOicif9_/view)
+9. [Article on UI/UX tips](https://www.uxpin.com/studio/blog/guide-design-consistency-best-practices-ui-ux-designers/)
 
