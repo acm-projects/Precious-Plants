@@ -26,7 +26,6 @@ class _MainPageState extends State<MainPage> {
         ),
       ),
       body: Container(
-        //Text("Precious Plants"),
         margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 8.0),
         decoration: BoxDecoration(
             color: Colors.white,
