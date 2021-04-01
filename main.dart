@@ -1,7 +1,7 @@
 //Search bar at top
 
 import 'dart:ui';
-
+import "aboutPlant.dart";
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage> {
       body: Stack(
         children: <Widget>[Container(
           height: size.height * 0.45,
-          decoration: BoxDecoration(color: Color(0xFF4CAF50)),
+          decoration: BoxDecoration(color: Color(0xDC2F7D32)),
         ),
           SafeArea(
             child: Padding(
@@ -67,32 +67,85 @@ class _MainPageState extends State<MainPage> {
                       children: <Widget>[
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: PlantCard(
-                            title: "Plant 1"
+                            child: GestureDetector(
+                              onTap:() {
+                                Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                builder: (context) => AboutPage()),
+                                );
+                              },
+                              child: PlantCard(
+                                onTap:AboutPage(),
+                                title: "Plant 1",
+                              //  svgSrc: "assets/moneyPlant.jpg",
+                              ),
+                            ),
+                          ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: GestureDetector(
+                            onTap:() {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => AboutPage()),
+                              );
+                            },
+                            child: PlantCard(
+                                title: "Plant 2"
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: GestureDetector(
+                            onTap:() {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => AboutPage()),
+                              );
+                            },
+                            child: PlantCard(
+                                title: "Plant 3"
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: GestureDetector(
+                            onTap:() {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => AboutPage()),
+                              );
+                            },
+                            child: PlantCard(
+                                title: "Plant 4"
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: GestureDetector(
+                            onTap:() {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => AboutPage()),
+                              );
+                            },
+                            child: PlantCard(
+                                title: "Plant 5"
+                            ),
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: PlantCard(
-                              title: "Plant 2"
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: PlantCard(
-                              title: "Plant 3"
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: PlantCard(
-                              title: "Plant 4"
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: PlantCard(
-                              title: "Plant 5"
+                              title: "Add Plant"
                           ),
                         ),
                       ],
@@ -113,7 +166,7 @@ class PlantCard extends StatelessWidget {
   final String svgSrc;
   final String title;
   const PlantCard({
-    Key key, this.svgSrc, this.title,
+    Key key, this.svgSrc, this.title, AboutPage onTap,
   }) : super(key: key);
 
   @override
@@ -134,14 +187,15 @@ class PlantCard extends StatelessWidget {
        child: Column(
          children: <Widget>[
            Spacer(),
-           //SvgPicture.asset(svgSrc),
+         //  SvgPicture.asset(svgSrc),
+           Spacer(),
            Text(
              title,
              textAlign: TextAlign.center,
              style: Theme.of(context)
                .textTheme
                .title
-               .copyWith(fontSize: 15)
+               .copyWith(fontSize: 20)
            ),
          ],
        ),
