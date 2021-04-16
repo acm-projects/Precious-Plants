@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 
+
 class MainPage extends StatefulWidget {
   _MainPageState createState() => _MainPageState();
 
@@ -28,8 +29,9 @@ class _MainPageState extends State<MainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(12, 25, 30, 16),
-                  child: Text(
+                  padding: const EdgeInsets.fromLTRB(55, 25, 30, 16),
+
+                  child:Text(
                     "Precious Plants",
                     style: Theme.of(context)
                         .textTheme
@@ -37,26 +39,16 @@ class _MainPageState extends State<MainPage> {
                         .copyWith(
                       fontWeight: FontWeight.w700,
                       color: Colors.white,
-                    ),
                   ),
                 ),
+                ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(10, 10, 10, 30),
-                  child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 30, vertical: 5),
-                    decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(29.5),
-                    ),
-                    child: TextField(
-                      decoration: InputDecoration(
-                        hintText: "Search",
-                        border: InputBorder.none,
-                        icon: Icon(
-                          Icons.search,
-                        ),
-                      ),
-                    ),
+                  padding: EdgeInsets.fromLTRB(150, 12, 150, 20),
+                  child: IconButton(
+                    icon: Icon(Icons.search,color: Colors.white, size: 30.0, ),
+                    onPressed: (){
+                      showSearch(context: context, delegate: DataSearch());
+                    },
                   ),
                 ),
                 Expanded(
@@ -78,7 +70,7 @@ class _MainPageState extends State<MainPage> {
                               child: PlantCard(
                                 onTap:AboutPage(),
                                 title: "Plant 1",
-                              //  svgSrc: "assets/moneyPlant.jpg",
+                                //body: Image.asset("assets/images/moneyPlant.jpg"),
                               ),
                             ),
                           ),
@@ -162,11 +154,72 @@ class _MainPageState extends State<MainPage> {
 
 }
 
+class DataSearch extends SearchDelegate<String>{
+  final plants = [
+    "Pothos",
+    "Tomatoes",
+   "Rosemary",
+    "Snake Plant",
+    "Sunflower",
+    "Lavender",
+    "Mint",
+    "Jade Plant",
+    "Aloe Vera",
+    "Paddle Plant",
+    "Lady Palm",
+    "Money Tree"
+  ];
+
+  final recentPlants = [
+    "Money Tree",
+    "Aloe Vera",
+    "Sunflower",
+    "Mint"
+  ];
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    // actions for app bar
+    return [
+      IconButton(icon: Icon(Icons.clear), onPressed: (){})
+    ];
+  }
+
+  @override
+  Widget buildLeading(BuildContext context) {
+    // leading icon on the left of the app bar
+    return IconButton(
+        icon: AnimatedIcon(
+          icon:AnimatedIcons.menu_arrow,
+          progress: transitionAnimation,
+        ),
+        onPressed: (){});
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    // show some result based on selection
+    throw UnimplementedError();
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    // show when someone searches for something
+    final suggestionList = query.isEmpty?recentPlants:plants;
+    
+    return ListView.builder(itemBuilder: (context, index)=>ListTile(
+      leading: Icon(Icons.autorenew),
+      title: Text(suggestionList[index]),
+    ),
+      itemCount:suggestionList.length,
+    );
+  }
+  
+}
+
 class PlantCard extends StatelessWidget {
-  final String svgSrc;
   final String title;
   const PlantCard({
-    Key key, this.svgSrc, this.title, AboutPage onTap,
+    Key key, this.title, AboutPage onTap, Image body,
   }) : super(key: key);
 
   @override
@@ -186,8 +239,6 @@ class PlantCard extends StatelessWidget {
        ),
        child: Column(
          children: <Widget>[
-           Spacer(),
-         //  SvgPicture.asset(svgSrc),
            Spacer(),
            Text(
              title,
