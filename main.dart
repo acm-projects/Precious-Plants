@@ -149,6 +149,7 @@ class _MainPageState extends State<MainPage> {
           )
         ],
       ),
+      drawer: Drawer(),
     );
   }
 
@@ -180,7 +181,10 @@ class DataSearch extends SearchDelegate<String>{
   List<Widget> buildActions(BuildContext context) {
     // actions for app bar
     return [
-      IconButton(icon: Icon(Icons.clear), onPressed: (){})
+      IconButton(icon: Icon(Icons.clear),
+          onPressed: (){
+          query = "";
+      })
     ];
   }
 
@@ -192,23 +196,47 @@ class DataSearch extends SearchDelegate<String>{
           icon:AnimatedIcons.menu_arrow,
           progress: transitionAnimation,
         ),
-        onPressed: (){});
+        onPressed: (){
+          close(context, null);
+        });
   }
 
   @override
   Widget buildResults(BuildContext context) {
     // show some result based on selection
-    throw UnimplementedError();
+    return Container(
+      height: 100.0,
+      width: 910.0,
+      child: Card(
+        color: Colors.grey[100],
+        child: Center(
+        child:Text(query),
+        ),
+        ),
+
+    );
   }
 
   @override
   Widget buildSuggestions(BuildContext context) {
     // show when someone searches for something
-    final suggestionList = query.isEmpty?recentPlants:plants;
-    
-    return ListView.builder(itemBuilder: (context, index)=>ListTile(
-      leading: Icon(Icons.autorenew),
-      title: Text(suggestionList[index]),
+    final suggestionList = query.isEmpty?recentPlants:plants.where((p)=>p.startsWith(query)).toList();
+    return ListView.builder(
+      itemBuilder: (context, index)=>ListTile(
+        onTap: (){
+          showResults(context);
+        },
+      title: RichText(text: TextSpan(
+        text:suggestionList[index].substring(0, query.length),
+        style: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold),
+        children: [TextSpan(
+          text:suggestionList[index].substring(query.length),
+          style: TextStyle(color:Colors.grey),
+        )],
+      ),
+      ),
     ),
       itemCount:suggestionList.length,
     );
