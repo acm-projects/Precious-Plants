@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
+import 'pages/saved.dart';
 
 void main() => runApp(MyApp());
 
@@ -27,7 +28,7 @@ class _NavigationBar extends State<NavigationBar> {
   int _selectedItem = 0;
   List<Widget> _tabs = <Widget>[
     //CameraPage();
-    //BookmarkPage();
+    SavedPage(),
     MainPage(),
     //NotificationPage();
     //SettingsPage();

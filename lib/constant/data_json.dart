@@ -1,0 +1,92 @@
+List menuItems = [
+  /*"Bag",
+  "Shoes",
+  "Shirt",
+  "Watch",
+  "Dress",
+  "Skirt",
+  "Pant",
+  "Wallet",
+  "Backpack",
+  "Jean"*/
+ /* "Pothos",
+  "Tomatoes",
+  "Rosemary",
+  "Snake Plant",
+  "Sunflower",
+  "Lavender",
+  "Mint",
+  "Jade Plant",
+  "Aloe Vera",
+  "Paddle Plant",
+  "Lady Palm",
+  "Money Tree"*/
+  "House Plants",
+  "Garden Plants",
+  "Tropical Plants"
+];
+
+
+List dataItems = [
+  {
+    "id" : 1,
+    "name": "Pothos",
+    "scientificName" : "Epipremnum aureum",
+    "watering" : "1 time per week",
+    "sunlight" : "indirect light",
+    "soil" : "well-draining potting soil",
+    "img" : "https://www.almanac.com/sites/default/files/image_nodes/pothos_usmee_ss-crop.jpg",
+    "height" : 20,
+  },
+  {
+    "id" : 2,
+    "name": "Pothos",
+    "scientificName" : "Epipremnum aureum",
+    "watering" : "1 time per week",
+    "sunlight" : "indirect light",
+    "soil" : "well-draining potting soil",
+    "img" : "https://www.almanac.com/sites/default/files/image_nodes/pothos_usmee_ss-crop.jpg",
+    "height" : 20,
+  },
+  {
+    "id" : 3,
+    "name": "Pothos",
+    "scientificName" : "Epipremnum aureum",
+    "watering" : "1 time per week",
+    "sunlight" : "indirect light",
+    "soil" : "well-draining potting soil",
+    "img" : "https://www.almanac.com/sites/default/files/image_nodes/pothos_usmee_ss-crop.jpg",
+    "height" : 20,
+  },
+  {
+    "id" : 4,
+    "name": "Pothos",
+    "scientificName" : "Epipremnum aureum",
+    "watering" : "1 time per week",
+    "sunlight" : "indirect light",
+    "soil" : "well-draining potting soil",
+    "img" : "https://www.almanac.com/sites/default/files/image_nodes/pothos_usmee_ss-crop.jpg",
+    "height" : 20,
+  },
+  {
+    "id" : 5,
+    "name": "Pothos",
+    "scientificName" : "Epipremnum aureum",
+    "watering" : "1 time per week",
+    "sunlight" : "indirect light",
+    "soil" : "well-draining potting soil",
+    "img" : "https://www.almanac.com/sites/default/files/image_nodes/pothos_usmee_ss-crop.jpg",
+    "height" : 20,
+  },
+  {
+    "id" : 6,
+    "name": "Pothos",
+    "scientificName" : "Epipremnum aureum",
+    "watering" : "1 time per week",
+    "sunlight" : "indirect light",
+    "soil" : "well-draining potting soil",
+    "img" : "https://www.almanac.com/sites/default/files/image_nodes/pothos_usmee_ss-crop.jpg",
+    "height" : 20,
+  }
+];
+//© 2021 GitHub, Inc.
