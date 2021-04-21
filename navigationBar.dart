@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
+import "camera.dart";
+import 'package:camera/camera.dart';
+import 'alarmPage.dart';
+final String HOME_SCREEN="/HOME_SCREEN";
+final String CAMERA_SCREEN="/CAMERA_SCREEN";
 
 void main() => runApp(MyApp());
 
@@ -26,7 +31,7 @@ class NavigationBar extends StatefulWidget {
 class _NavigationBar extends State<NavigationBar> {
   int _selectedItem = 0;
   List<Widget> _tabs = <Widget>[
-    //CameraPage();
+    MyCamPage(),
     //BookmarkPage();
     MainPage(),
     //NotificationPage();
